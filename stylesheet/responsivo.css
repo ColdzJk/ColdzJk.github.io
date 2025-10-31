@@ -1,0 +1,109 @@
+@media(max-width: 800px) {
+    .container,
+    .introducao,
+    .footer {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        justify-items: center;
+        margin: 0 auto;
+        gap: 1.5rem;
+        padding: 0 1.5rem;
+    }
+
+    .navBar ul {
+        gap: 1rem;
+    }
+
+    .navBar {
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        padding: 1rem 0;
+    }
+
+        .logo h1 {
+        display: none;
+    }
+
+    h1,
+    h2 {
+        font-size: 1.2rem;
+        text-align: center;
+        place-self: center;
+    }
+
+    .foto {
+        justify-self: center;
+        height: 150px;
+        width: 150px;
+    }
+
+    p,
+    a,
+    aside,
+    span,
+    h3 {
+        font-size: 12px;
+    }
+
+    .sobreMim {
+        padding: 1rem;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    #tituloExp span {
+        font-size: 1.2rem;
+    }
+
+    .habilidades li {
+        padding: 0.1rem 0.5rem;
+        font-size: 12px;
+    }
+
+    #tituloFormacao{
+        grid-row: 1;
+    }
+    .footer {
+        padding: 6rem 1rem;
+    }
+}
+@media(max-width: 1000px) {
+       p,
+    a,
+    aside,
+    span,
+    h3 {
+        font-size: 14px;
+    }
+   h1,
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+        place-self: center;
+    }
+
+}
+
+@media(max-width: 1250px){
+        .formacao{
+        flex-direction: column;
+        }
+        .formacao li{
+        background: rgb(5, 5, 10);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.75rem;
+        margin: 0;
+    }
+    .container,
+    .introducao,
+    .footer,
+    .sobreMim{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+}

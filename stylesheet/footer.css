@@ -1,0 +1,16 @@
+.footer {
+    /* background: rgb(10, 10, 13); */
+    background: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+    padding: 8rem 10rem;
+}
+
+#contatos div {
+    display: grid;
+}
+
+.linkContato {
+    font-size: 2rem;
+}

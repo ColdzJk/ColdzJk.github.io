@@ -1,0 +1,17 @@
+<!-- salvar como "favicon-dark-g.svg" -->
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- fundo escuro -->
+  <rect width="100%" height="100%" rx="64" fill="#0b0b0f"></rect>
+
+  <!-- anel branco (base do 'G') -->
+  <circle cx="256" cy="256" r="140" fill="none" stroke="#ffffff" stroke-width="80" stroke-linecap="round" stroke-linejoin="round"></circle>
+
+  <!-- máscara (cobre parte do anel para formar a abertura do 'G') -->
+  <rect x="310" y="200" width="120" height="120" rx="10" fill="#0b0b0f"></rect>
+
+  <!-- traço interno do 'G' (o 'pequeno' gancho) -->
+  <rect x="270" y="240" width="76" height="48" rx="8" fill="#ffffff"></rect>
+
+  <!-- ajuste fino: pequeno bloco para suavizar canto interno -->
+  <rect x="242" y="292" width="36" height="24" rx="6" fill="#0b0b0f"></rect>
+</svg>
